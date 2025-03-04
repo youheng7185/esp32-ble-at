@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Users/lapchong/Documents/esp32/gap-discover/CMakeFiles/bootloader
+C:/Users/lapchong/Documents/esp32/gap-discover/CMakeFiles/bootloader.rule
+C:/Users/lapchong/Documents/esp32/gap-discover/CMakeFiles/bootloader-complete.rule
+C:/Users/lapchong/Documents/esp32/gap-discover/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/lapchong/Documents/esp32/gap-discover/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/lapchong/Documents/esp32/gap-discover/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/lapchong/Documents/esp32/gap-discover/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/lapchong/Documents/esp32/gap-discover/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/lapchong/Documents/esp32/gap-discover/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/lapchong/Documents/esp32/gap-discover/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
