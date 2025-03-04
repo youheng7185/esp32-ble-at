@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "C:/Users/lapchong/esp/v5.2.2/esp-idf/components/bootloader/subproject"
-  "C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader"
-  "C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader-prefix"
-  "C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader-prefix/tmp"
-  "C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader-prefix/src"
-  "C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/lapchong/esp/v5.3.1/esp-idf/components/bootloader/subproject"
+  "/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader"
+  "/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader-prefix"
+  "/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader-prefix/tmp"
+  "/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader-prefix/src"
+  "/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

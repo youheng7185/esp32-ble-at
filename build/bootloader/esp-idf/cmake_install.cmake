@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/lapchong/esp/v5.2.2/esp-idf
+# Install script for directory: /home/lapchong/esp/v5.3.1/esp-idf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/bootloader")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,106 +34,106 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/lapchong/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "/home/lapchong/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20240530/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/xtensa/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/xtensa/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/newlib/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/newlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/soc/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/soc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/micro-ecc/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/micro-ecc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/hal/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/hal/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/spi_flash/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/spi_flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/esp_bootloader_format/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/esp_bootloader_format/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/esp_app_format/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/esp_app_format/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/bootloader_support/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/bootloader_support/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/efuse/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/efuse/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/esp_system/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/esp_system/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/esp_hw_support/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/esp_hw_support/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/esp_common/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/esp_common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/esp_rom/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/esp_rom/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/log/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/log/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/esptool_py/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/esptool_py/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/partition_table/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/partition_table/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/bootloader/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/bootloader/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/freertos/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/freertos/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/lapchong/Documents/esp32/gap-discover/build/bootloader/esp-idf/main/cmake_install.cmake")
+  include("/home/lapchong/cpp/stm32/esp32-ble-at/build/bootloader/esp-idf/main/cmake_install.cmake")
 endif()
 

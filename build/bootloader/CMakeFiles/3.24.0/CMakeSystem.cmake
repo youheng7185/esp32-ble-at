@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Windows-10.0.19044")
-set(CMAKE_HOST_SYSTEM_NAME "Windows")
-set(CMAKE_HOST_SYSTEM_VERSION "10.0.19044")
-set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
+set(CMAKE_HOST_SYSTEM "Linux-6.13.4-200.fc41.x86_64")
+set(CMAKE_HOST_SYSTEM_NAME "Linux")
+set(CMAKE_HOST_SYSTEM_VERSION "6.13.4-200.fc41.x86_64")
+set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("C:/Users/lapchong/esp/v5.2.2/esp-idf/tools/cmake/toolchain-esp32s3.cmake")
+include("/home/lapchong/esp/v5.3.1/esp-idf/tools/cmake/toolchain-esp32s3.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")
