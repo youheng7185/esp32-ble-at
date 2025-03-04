@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "gap-discover",
-    "project_version":    "1",
+    "project_version":    "5cc32af-dirty",
     "project_path":       "C:/Users/lapchong/Documents/esp32/gap-discover",
     "idf_path":           "C:/Users/lapchong/esp/v5.2.2/esp-idf",
     "build_dir":          "C:/Users/lapchong/Documents/esp32/gap-discover/build",
@@ -805,7 +805,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Users/lapchong/Documents/esp32/gap-discover/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/lapchong/Documents/esp32/gap-discover/main/main.c" ],
+            "sources": [ "C:/Users/lapchong/Documents/esp32/gap-discover/main/at_commands.c", "C:/Users/lapchong/Documents/esp32/gap-discover/main/main.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

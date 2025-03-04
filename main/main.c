@@ -7,6 +7,9 @@
 #include "nvs_flash.h"
 #include <string.h>
 #include <math.h>
+#include "driver/uart.h"
+#include "main.h"
+#include "at_commands.h"
 
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
 
@@ -40,11 +43,11 @@ static const ble_uuid128_t capacity_uuid =
 static const ble_uuid128_t points_uuid = 
     BLE_UUID128_INIT(0x6d, 0x7b, 0xdc, 0x7e, 0xd5, 0xb3, 0xa6, 0x84, 0xaa, 0x4a, 0x4f, 0x07, 0x97, 0xb9, 0x60, 0xea);
 
-static char username[32] = "";
-static char user_id[32] = "";
-static char recent_uid[32] = "";
-static int points = 0;
-static int capacity = 100;
+char username[32] = "";
+char user_id[32] = "";
+char recent_uid[32] = "";
+int points = 0;
+int capacity = 100;
 bool data_available = false;
 
 static int write_handler(uint16_t conn_handle, uint16_t attr_handle, struct ble_gatt_access_ctxt *ctxt, void *arg) {
@@ -169,12 +172,15 @@ void app_main(void) {
 }
 
 void my_task(void *pvParameters) {
+    uart_init();
+    xTaskCreate(uart_task, "uart_task", 4096, NULL, 2, NULL);
     while(1)
     {
         printf("my task is running!\n");
         data_available = !data_available;
         ble_advertise();
         printf("switch uuid\n");
+        printf("username: %s, uid: %s, target_uid: %s, points: %d, capacity: %d\n", username, user_id, recent_uid, points, capacity);
         vTaskDelay(pdMS_TO_TICKS(10000));
     }
 }
